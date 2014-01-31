@@ -1,0 +1,49 @@
+{
+/*
+  "users": {
+    "rufusgor": "gor",
+    "vadimsavko" : "qwerty7"
+  },
+*/
+  "port": 7722,
+  //"hostname": "127.0.0.1",
+  "shell": "/bin/bash",
+  //"shellArgs": ["arg1", "arg2"],
+  //"static": "./static",
+  "limitGlobal": 10000,
+  "limitPerUser": 1000,
+  "localOnly": false,
+  "cwd": ".",
+  "syncSession": true,
+  "sessionTimeout": 1800000,
+  "log": true,
+  "io": { "log": false },
+  "debug": false,
+  "term": {
+    "termName": "xterm-256color",
+    "geometry": [120, 24],
+    "scrollback": 10000,
+    "visualBell": true,
+    "popOnBell": true,
+    "cursorBlink": true,
+    "screenKeys": true,
+    "colors": [
+      "#2e3436",
+      "#cc0000",
+      "#4e9a06",
+      "#c4a000",
+      "#3465a4",
+      "#75507b",
+      "#06989a",
+      "#d3d7cf",
+      "#555753",
+      "#ef2929",
+      "#8ae234",
+      "#fce94f",
+      "#729fcf",
+      "#ad7fa8",
+      "#34e2e2",
+      "#eeeeec"
+    ]
+  }
+}
